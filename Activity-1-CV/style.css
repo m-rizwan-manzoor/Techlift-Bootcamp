@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    color: rgb(58, 57, 57);
+}
+
+
+.cv {
+    background-color: rgb(240, 239, 239);
+    width: 70%;
+    margin: 5rem auto 5rem auto;
+    padding: 3rem 5rem 4rem 5rem;
+    border-top: 5px solid rgb(59, 59, 59);
+    border-bottom: 2px solid rgb(59, 59, 59);
+}
+
+.head {
+    border-bottom: 1px solid rgb(173, 173, 173);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.head h1 {
+    font-size: 2rem;
+}
+
+.head h4 {
+    font-style: italic;
+}
+
+.head a {
+    color: rgb(192, 41, 41);
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info {
+    margin-right: 3rem;
+}
+
+.btn {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(80, 80, 80);
+}
+
+a.btn {
+    color: white;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+
+.profile h4 {
+    margin-right: 3rem;
+    font-style: italic;
+}
+
+.profile p {
+    width: 80%;
+}
+
+.skills {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+
+.skills h4 {
+    margin-right: 3rem;
+    font-style: italic;
+}
+
+.skill-details {
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.skills h3 {
+    font-size: medium;
+}
+
+.skills p {
+    font-size: small;
+}
+
+.technical {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+
+.technical h4 {
+    font-style: italic;
+}
+
+.technical-details {
+    width: 80%;
+}
+
+.technical p {
+    width: 12rem;
+}
+
+.technical .row {
+    border-bottom: 1px solid rgb(173, 173, 173);
+    display: flex;
+}
+
+.experience {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+
+.experience-details {
+    width: 80%;
+}
+
+.experience-heading {
+    font-style: italic;
+}
+
+.experience-item {
+    border-bottom: 1px solid rgb(173, 173, 173);
+    margin-bottom: 10px;
+}
+
+.experience h3 {
+    font-size: large;
+}
+
+.experience-year {
+    float: right;
+}
+
+.experience h4 {
+    font-size: medium;
+}
+
+.experience p {
+    font-size: small;
+    padding: 15px 0 40px 0;
+}
+
+.education {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+
+.education h4 {
+    margin-right: 3rem;
+    font-style: italic;
+}
+
+.education-details {
+    width: 80%;
+}
+
+.education-details span {
+    font-weight: bold;
+}
+
+.education h3 {
+    font-size: medium;
+}
+
+.education p {
+    font-size: small;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 5px;
+    font-size: smaller;
+}
+
+.footer a {
+    color: rgb(192, 41, 41);
+}
