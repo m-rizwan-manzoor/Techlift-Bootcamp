@@ -5,12 +5,58 @@
 }
 
 .theme {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: rgb(72, 72, 72);
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     padding: 5rem 0 5rem 0;
+}
+
+nav {
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2px 40px 2px;
+    padding-bottom: 20px;
+    align-items: center;
+    border-bottom: 3px solid rgb(231, 231, 231);
+}
+
+nav h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: rgb(122, 122, 122);
+    font-family: inherit;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    font-weight: 800;
+    color: black;
+}
+
+.search {
+    margin-left: 40px;
+    padding: 3px 20px 3px 10px;
+    border: 3px solid rgb(231, 231, 231);
+    border-radius: 10px;
+}
+
+nav img {
+    height: 18px;
+    margin-left: 50px;
 }
 
 .heading h1 {
@@ -87,11 +133,11 @@
 
 .user-data svg {
     margin-right: 6px;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .user-details {
-    margin-top: 20px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -103,7 +149,7 @@
 
 .user-details div {
     color: rgb(122, 122, 122);
-    font-size: smaller;
+    font-size: small;
 }
 
 .all-stories {
