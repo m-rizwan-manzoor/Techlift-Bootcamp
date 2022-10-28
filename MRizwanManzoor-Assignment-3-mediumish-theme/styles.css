@@ -10,7 +10,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    padding: 5rem 0 5rem 0;
+    padding: 20px 0 20px 0;
 }
 
 nav {
@@ -18,7 +18,7 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 0 2px 40px 2px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     align-items: center;
     border-bottom: 3px solid rgb(231, 231, 231);
 }
@@ -158,8 +158,9 @@ nav img {
 }
 
 .all-stories h2 {
+    padding-right: 0;
+    white-space: nowrap;
     border-bottom: 3px solid rgb(165, 164, 164);
-    width: 10rem;
     padding-bottom: 10px;
     font-weight: 800;
 }
