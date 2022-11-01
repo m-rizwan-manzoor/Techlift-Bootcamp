@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="./validation.js" defer></script>
+    <title>Payment</title>
+
+
+</head>
+
+<body>
+    <div class="w-75 mx-auto my-5 row">
+
+        <h1 class="py-2 text-danger">Payment Method</h1>
+        <div class="d-flex">
+            <div style="padding: 5px 50px 5px 50px; border: 3px solid rgb(216, 216, 216);">
+                <img style="width: 10rem;" src="./assets/pic_1.png" alt="visa_image">
+            </div>
+            <div style="margin-left: 50px; padding: 15px 50px 5px 50px; border: 3px solid rgb(216, 216, 216);">
+                <img style="width: 10rem;" src="./assets/pic_2.png" alt="paypal_image">
+            </div>
+        </div>
+
+        <form name="myForm">
+
+            <label for="nameOnCard" class="pt-4 pb-2 fw-bold">Name on Card</label>
+            <div class="form-group">
+                <input type="text" class="form-control rounded-0" name="nameOnCard" id="nameOnCard" placeholder="John Smith">
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="cardNumber" class="pt-4 pb-2 fw-bold">Card Number</label>
+                    <div class="form-group">
+                        <input type="number" class="form-control rounded-0" name="cardNumber" id="cardNumber" placeholder="0000-0000-0000-0000">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="cvv" class="pt-4 pb-2 fw-bold">CVV</label>
+                    <div class="form-group">
+                        <input type="password" class="form-control rounded-0" name="cvv" id="cvv" placeholder="&#9679;&#9679;&#9679;">
+                    </div>
+                </div>
+            </div>
+
+            <label for="expirationDate" class="pt-4 pb-2 fw-bold">Expiration Date</label>
+            <div class="form-group">
+                <input type="month" class="form-control rounded-0" name="expirationDate" id="expirationDate">
+            </div>
+
+            <button type="button" class="text-light mt-4 px-5 btn btn-info rounded-0" onclick="validateName(), validateCard(), validateCVV()">MAKE A PAYMENT</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
