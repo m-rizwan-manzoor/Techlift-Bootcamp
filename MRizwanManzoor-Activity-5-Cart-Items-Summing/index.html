@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="./app.js" defer></script>
+    <title>Order</title>
+
+
+</head>
+
+<body>
+    <nav class="bg-info py-3 text-light">
+        <div class="w-75 mx-auto my-2">
+            <h6>Your online store</h6>
+        </div>
+    </nav>
+
+    <div class="bg-white text-center py-4">
+
+        <span style="color: rgb(150, 207, 211);">REVIEW &#x2022</span>
+        <span class="text-info fw-bold">ORDER &#x2022</span>
+        <span style="color: rgb(150, 207, 211);">PAYMENT</span>
+
+    </div>
+
+    <div style="background-color: rgb(247, 245, 245);" class="py-5">
+
+        <div style="font-family: 'Open Sans', sans-serif;" class="w-75 mx-auto my-5 row">
+
+            <form>
+
+                <div class="row">
+                    <div class="col-md-6 text-center mt-5">
+                        <img class="img-fluid" src="./assets/shopping-cart-20370.png" alt="cart-img" width="100">
+                        <h5 class="py-5 text-secondary fw-semibold">Your shopping cart</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <label style="color: rgb(150, 207, 211);" class="w-100 pt-4 pb-2"><span class="mx-1">QTY</span>
+                            <span class="mx-3">ITEM</span> <span class="float-end mx-4">PRICE</span></label>
+
+                        <div class="bg-white d-flex px-1 py-2 mb-3">
+                            <input style="width: 50px; font: inherit;" type="number"
+                                class="border-0 rounded-0 text-info" name="birthday_cake" data-ref="birthday_cake" min="0" value="1">
+                            <div class="w-100 py-2 fw-semibold text-secondary">
+                                <span class="mx-1">Birthday Cake</span>
+                                <span style="color: rgb(231, 134, 88);" class="float-end mx-3">$49.95</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-white d-flex px-1 py-2 mb-3">
+                            <input style="width: 50px; font: inherit;" type="number"
+                                class="border-0 rounded-0 text-info" name="party_cups" data-ref="party_cups" min="0" value="50">
+                            <div class="w-100 py-2 fw-semibold text-secondary">
+                                <span class="mx-1">Party Cups</span>
+                                <span style="color: rgb(231, 134, 88);" class="float-end mx-3">$5.00</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-white d-flex px-1 py-2 mb-3">
+                            <input style="width: 50px; font: inherit;" type="number"
+                                class="border-0 rounded-0 text-info" name="beer_kegs" data-ref="beer_kegs" min="0" value="20">
+                            <div class="w-100 py-2 fw-semibold text-secondary">
+                                <span class="mx-1">Beer Kegs</span>
+                                <span style="color: rgb(231, 134, 88);" class="float-end mx-3">$919.99</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-white d-flex px-1 py-2 mb-3">
+                            <input style="width: 50px; font: inherit;" type="number"
+                                class="border-0 rounded-0 text-info" name="pound_of_beef" data-ref="pound_of_beef" min="0" value="18">
+                            <div class="w-100 py-2 fw-semibold text-secondary">
+                                <span class="mx-1">Pound of Beef</span>
+                                <span style="color: rgb(231, 134, 88);" class="float-end mx-3">$269.45</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-white d-flex px-1 py-2 mb-3">
+                            <input style="width: 50px; font: inherit;" type="number"
+                                class="border-0 rounded-0 text-info" name="bullet_proof_vest" data-ref="bullet_proof_vest" min="0" value="1">
+                            <div class="w-100 py-2 fw-semibold text-secondary">
+                                <span class="mx-1">Bullet-proof Vest</span>
+                                <span style="color: rgb(231, 134, 88);" class="float-end mx-3">$450.00</span>
+                            </div>
+                        </div>
+                        <div class="text-secondary fw-semibold">
+                            <span class="mx-1">Total:</span>
+                            <span style="color: rgb(231, 134, 88);" class="mx-3" id="total">$</span>
+                        </div>
+                        <button type="submit"
+                            class="float-end text-light mt-4 px-5 btn btn-info border-0 rounded-0" style="background-color: rgb(231, 134, 88);" id="order_btn">ORDER</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
