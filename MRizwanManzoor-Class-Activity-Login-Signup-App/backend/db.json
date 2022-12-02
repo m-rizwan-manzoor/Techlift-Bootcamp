@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "Ahmad",
+      "email": "ahmad@xyz.com",
+      "gender": "Male",
+      "date": "2022-12-08",
+      "password": "12345",
+      "user_name": "Ahmad",
+      "id": 6
+    },
+    {
+      "name": "Junaid",
+      "email": "junaid@gmail.com",
+      "gender": "Male",
+      "date": "2022-12-07",
+      "password": "123456",
+      "user_name": "Junaid",
+      "id": 8
+    }
+  ]
+}
