@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "name": "Ahmad Ali",
+      "id": 6
+    },
+    {
+      "name": "Junaid",
+      "id": 8
+    },
+    {
+      "name": "Rizwan",
+      "id": 9
+    }
+  ],
+  "posts": [
+    {
+      "name": "Ahmad",
+      "title": "Hello",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "id": 1
+    },
+    {
+      "name": "Rizwan",
+      "title": "Test Post",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "id": 2
+    },
+    {
+      "name": "Daniyal",
+      "title": "Techlift",
+      "body": "Mern Stack",
+      "id": 3
+    }
+  ]
+}
